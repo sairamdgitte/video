@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Responsive Video Example</title>
+    <style>
+        body {
+            overflow: hidden;
+        }
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media screen and (min-width: 3840px) {
+            video {
+                width: 1920px;
+                height: 2160px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <video src="asset/bar-race.mp4" controls></video>
+</body>
+
+</html>
